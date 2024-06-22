@@ -1,0 +1,134 @@
+body {
+    font-family: 'News701 BT', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10;
+    background: linear-gradient(120deg, #e0c3fc 0%, #e0c3fc 100%);
+    color: #0f0f0f;
+}
+
+header {
+    background-color: #d0d0d0;
+    color: #9d1194bd;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #6a4ca1;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li button {
+    background-color: #8a63d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li button:hover {
+    background-color: #e0c3fc;
+}
+
+.FirstImage {
+    max-width: 350px;
+    height: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.SecondImage {
+    max-width: 350px;
+    height: 350px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+.SecondImage1 {
+    max-width: 350px;
+    height: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.SecondImage2{
+    max-width: 485px;
+    height: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.ThirdImage {
+    max-width: 650px;
+    height: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.section-content {
+    display: none;
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Future5 {
+    max-width: 550px;
+    height: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.Future10 {
+    max-width: 550px;
+    height: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#future-content {
+    margin-top: 20px;
+}
+
+.CG {
+    max-width: 750px;
+    height: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+button {
+    background-color: #8a63d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #976ae4;
+}
+
+

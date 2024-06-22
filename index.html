@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal vlog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, let's go to meet me ☝️🤓</h1>
+        <img src="foto3-primer-año.jpg" class="FirstImage" alt="Mi Foto 2">
+    </header>
+    <nav>
+        <ul>
+            <li><button onclick="showContent('biografia')">Biography 📃</button></li>
+            <li><button onclick="showContent('hobbies')">Hobbies 💡</button></li>
+            <li><button onclick="showContent('future')">Me in a future 🤰❓</button></li>
+            <li><button onclick="showContent('computation')">Computing science 💻</button></li>
+        </ul>
+    </nav>
+    <section id="content">
+        <div id="biografia" class="section-content">
+            <h2>A little bit of me</h2>
+            <p>My name is Brunella, but I like to be called Nella.. I came into this world on April 16, 2006, which means that I am 18 years old now :c, I grew up in the city of Tacna with my parents and my older brother until I was 2 years old, because of my dad's work we had to move to Arequipa which is where I live to this day, everything was going well until my younger siblings were born whom I love very much but sometimes they fill my patience. I spent elementary school in a small school in the Jacobo Hunter district. And I finished my upper and secondary school at the Padre Damian de los Sagrados Corazones school.</p>
+            <img src="foto1-recien-nacida.jpg" class= "SecondImage" alt="Mi Foto 1">
+            <img src="foto-con-mis-hmnos.jpg" class= "SecondImage2" alt="Mi Foto 2">
+        </div>
+        <div id="hobbies" class="section-content">
+            <h2>Hobbies</h2>
+            <p>I have carried out various activities throughout my school years, including:
+                Practice basketball, volleyball and handball.
+                I practice piano and guitar.
+                I like and relax listening to music too much.
+                I love reading youth books or poems.
+                I know it's not a hobby, but I also really like going to sleep.
+                Compared to most of my peers, I don't play any video games.</p>
+            <img src="colegio-padre-damian.jpg" class= "ThirdImage"alt="Hobbies 1">
+        </div>
+        <div id="future" class="section-content">
+            <h2>Me in a Future</h2>
+            <button onclick="showFutureContent('5')">5 years</button>
+            <button onclick="showFutureContent('10')">10 years</button>
+            <div id="future-content"></div>
+        </div>
+        <div id="computation" class="section-content">
+            <h2>Computer Graphics</h2>
+            <p>Modeling: Creation of three-dimensional models of objects and virtual environments.</p>
+            <p>Rendering: Process of generating images from three-dimensional models, applying lighting, shadows, textures, etc., to create a realistic representation.</p>
+            <p>Animation: Creating movements and actions in three-dimensional objects to simulate movement in a virtual environment.</p>
+            <p>Visualization: Visual representation of scientific, medical, or engineering data and results to facilitate understanding and analysis..</p>
+            <p>Interaction: Development of graphical user interfaces (GUI) and user experiences (UX) for applications and software.</p>
+            <p>Applications of Computer Graphics:</p>
+                <p>-Entertainment</p>
+                <p>-Design and Architecture</p>
+                <p>-Medicine and Science</p>
+                <p>-Education</p>
+                <p>-Graphic Design and Advertising</p>
+                <p>-Simulation and Training</p>
+                <p>-Virtual Reality (VR) and Augmented Reality (AR)</p>
+            <p>Computer graphics is a broad and constantly evolving field, with a wide range of career opportunities in various sectors.</p>
+            <img src="Computation-graphics.jpeg" class="CG" alt="Computación 1">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
